@@ -1,80 +1,94 @@
-"Source:","D:\OneDrive\Documents\GitHub\SoCET_x06_CANBus_Shield\Shield_Pins.kicad_sch"
-"Date:","2/10/2023 10:09:58 AM"
-"Tool:","Eeschema (6.0.7)"
-"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","40"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"","","C1","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C2","22pF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C3","22pF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C4","100pF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C5","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C6","100nF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C7","100nF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","CIN1","100nF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","COUT1","10uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","D1","3.3V 500mW","Device:D","Diode_SMD:D_SOD-123","~"
-"","","D2","LED","Device:LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
-"","","D3","LED","Device:LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
-"","","D4","LED","Device:LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
-"","","D5","LED","Device:LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
-"","","D7","BAT165AX","Device:D","Diode_SMD:D_SOD-323_HandSoldering","~"
-"","","D8","BAT165AX","Device:D","Diode_SMD:D_SOD-323_HandSoldering","~"
-"","","F1","1.5A Fuse","Device:Fuse","Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder","https://www.digikey.com/en/products/detail/bel-fuse-inc/0ABB-1500-TM/15204251"
-"","","FB1","120R","Device:FerriteBead","Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
-"","","J1","Conn_01x04_Male","Connector:Conn_01x04_Male","Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical","~"
-"","","J2","Conn_01x06_Male","Connector:Conn_01x06_Male","Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical","~"
-"","","J3","Conn_01x06_Male","Connector:Conn_01x06_Male","Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical","~"
-"","","J4","Conn_01x04_Male","Connector:Conn_01x04_Male","Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical","~"
-"","","J5","Conn_01x01_Male","Connector:Conn_01x01_Male","Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical","~"
-"","","J6","Conn_01x06_Male","Connector:Conn_01x06_Male","Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical","~"
-"","","J7","Conn_01x15_Male","Connector:Conn_01x15_Male","Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical","~"
-"","","J8","Conn_01x15_Male","Connector:Conn_01x15_Male","Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical","~"
-"","","J9","Conn_01x02_Male","Connector:Conn_01x02_Male","Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical","~"
-"","","J11","Screw_Terminal_01x02","Connector:Screw_Terminal_01x02","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~"
-"","","J12","DB9_Male","Connector:DB9_Male","Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm","https://www.digikey.com/en/products/detail/conec/163A13829X/3838158"
-"","","R1","6.3kR","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"","","R2","1kR","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"","","R3","100R","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"","","R4","100R","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"","","R5","100R","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"","","R6","100R","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"","","SW1","SW_SPDT","Switch:SW_SPDT","CANBusShield:09.03290.01 switch","~"
-"","","U1","MCP2515-xSO","Interface_CAN_LIN:MCP2515-xSO","Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf"
-"","","U2","MCP2551-I-SN","Interface_CAN_LIN:MCP2551-I-SN","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf"
-"","","U3","LD1117S50TR_SOT223","Regulator_Linear:LD1117S50TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2","https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117S50CTR/585767"
-"","","Y1","8MHz Crystal","Device:Crystal","Crystal:Crystal_SMD_HC49-SD","https://ecsxtal.com/store/pdf/csm-7x.pdf"
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"1","2","C1, C5","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"2","2","C2, C3","22pF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"3","1","C4","100pF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"4","3","C6, C7, CIN1","100nF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"5","1","COUT1","10uF","Device:C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"6","1","D1","3.3V 500mW","Device:D","Diode_SMD:D_SOD-123","~"
-"7","4","D2, D3, D4, D5","LED","Device:LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
-"8","2","D7, D8","BAT165AX","Device:D","Diode_SMD:D_SOD-323_HandSoldering","~"
-"9","1","F1","1.5A Fuse","Device:Fuse","Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder","https://www.digikey.com/en/products/detail/bel-fuse-inc/0ABB-1500-TM/15204251"
-"10","1","FB1","120R","Device:FerriteBead","Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder","~"
-"11","2","J1, J4","Conn_01x04_Male","Connector:Conn_01x04_Male","Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical","~"
-"12","3","J2, J3, J6","Conn_01x06_Male","Connector:Conn_01x06_Male","Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical","~"
-"13","1","J5","Conn_01x01_Male","Connector:Conn_01x01_Male","Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical","~"
-"14","2","J7, J8","Conn_01x15_Male","Connector:Conn_01x15_Male","Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical","~"
-"15","1","J9","Conn_01x02_Male","Connector:Conn_01x02_Male","Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical","~"
-"16","1","J11","Screw_Terminal_01x02","Connector:Screw_Terminal_01x02","TerminalBlock:TerminalBlock_bornier-2_P5.08mm","~"
-"17","1","J12","DB9_Male","Connector:DB9_Male","Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm","https://www.digikey.com/en/products/detail/conec/163A13829X/3838158"
-"18","1","R1","6.3kR","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"19","1","R2","1kR","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"20","4","R3, R4, R5, R6","100R","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~"
-"21","1","SW1","SW_SPDT","Switch:SW_SPDT","CANBusShield:09.03290.01 switch","~"
-"22","1","U1","MCP2515-xSO","Interface_CAN_LIN:MCP2515-xSO","Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf"
-"23","1","U2","MCP2551-I-SN","Interface_CAN_LIN:MCP2551-I-SN","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf"
-"24","1","U3","LD1117S50TR_SOT223","Regulator_Linear:LD1117S50TR_SOT223","Package_TO_SOT_SMD:SOT-223-3_TabPin2","https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117S50CTR/585767"
-"25","1","Y1","8MHz Crystal","Device:Crystal","Crystal:Crystal_SMD_HC49-SD","https://ecsxtal.com/store/pdf/csm-7x.pdf"
+Source:,D:\OneDrive\Documents\GitHub\SoCET_PCB_Shield_Dev_Platform\Shield_Pins.kicad_sch,,,,,,
+Date:,2/21/2023 20:31,,,,,,
+Tool:,Eeschema (6.0.7),,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,
+Component Count:,49,,,,,,
+,,,,,,,
+Individual Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,,Datasheet,Footprint
+,,C1,0.1uF,Device:C,,https://www.digikey.com/en/products/detail/murata-electronics/GCM188R71H104KA57D/1641653,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+,,C2,22pF,Device:C,,https://www.digikey.com/en/products/detail/yageo/CC0603JRNPO9BN220/302796,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+,,C3,22pF,Device:C,,https://www.digikey.com/en/products/detail/yageo/CC0603JRNPO9BN220/302796,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+,,C4,100pF,Device:C,,https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H101JA01D/586921,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+,,C5,0.1uF,Device:C,,https://www.digikey.com/en/products/detail/murata-electronics/GCM188R71H104KA57D/1641653,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+,,C6,100nF,Device:C,,https://www.digikey.com/en/products/detail/vishay-sprague/TMCP1D104MTRF/10107432,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+,,C7,100nF,Device:C,,https://www.digikey.com/en/products/detail/vishay-sprague/TMCP1D104MTRF/10107432,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+,,C8,4.7nF,Device:C,,https://www.digikey.com/en/products/detail/kemet/C0603C472K4RECAUTO/8640473,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+,,CIN1,100nF,Device:C,,https://www.digikey.com/en/products/detail/vishay-sprague/TMCP1D104MTRF/10107432,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+,,COUT1,10uF,Device:C,,https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106MA73D/3900497,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+,,D1,3.3V 500mW,Device:D,,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAS16J-115/1692651,Diode_SMD:D_SOD-323_HandSoldering
+,,D2,LED,Device:LED,,https://www.mouser.com/ProductDetail/Bivar/SM0603SRC?qs=EYSZfI0QbkaJbRyUf4vVYw%3D%3D,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+,,D3,LED,Device:LED,,https://www.mouser.com/ProductDetail/Bivar/SM0603PGC?qs=jaLxTFIJCis8L0JCXp65MQ%3D%3D,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+,,D4,LED,Device:LED,,https://www.mouser.com/ProductDetail/Bivar/SM0603UBWC?qs=hWDdE2Pc5RAVU9aZAE1txQ%3D%3D,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+,,D5,LED,Device:LED,,https://www.mouser.com/ProductDetail/Bivar/SM0603PGC?qs=jaLxTFIJCis8L0JCXp65MQ%3D%3D,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+,,D6,LED,Device:LED,,https://www.mouser.com/ProductDetail/Bivar/SM0603URC?qs=hWDdE2Pc5RAmyCtviNtSxQ%3D%3D,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+,,D7,BAT165AX,Device:D,,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAT165AX/6576010?s=N4IgTCBcDaIEYEMAuBGAbAVgIIA0QF0BfIA,Diode_SMD:D_SOD-323_HandSoldering
+,,D8,BAT165AX,Device:D,,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAT165AX/6576010?s=N4IgTCBcDaIEYEMAuBGAbAVgIIA0QF0BfIA,Diode_SMD:D_SOD-323_HandSoldering
+,,F1,1.5A Fuse,Device:Fuse,,https://www.digikey.com/en/products/detail/bel-fuse-inc/0ABB-1500-TM/15204251,Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+,,FB1,120R,Device:FerriteBead,,https://www.digikey.com/en/products/detail/laird-signal-integrity-products/LI0603G121R-10/806607,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+,,J1,Conn_01x04_Male,Connector:Conn_01x04_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical
+,,J2,Conn_01x06_Male,Connector:Conn_01x06_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical
+,,J3,Conn_01x06_Male,Connector:Conn_01x06_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical
+,,J4,Conn_01x04_Male,Connector:Conn_01x04_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical
+,,J5,Conn_01x01_Male,Connector:Conn_01x01_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical
+,,J6,Conn_01x06_Male,Connector:Conn_01x06_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical
+,,J7,Conn_01x15_Male,Connector:Conn_01x15_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical
+,,J8,Conn_01x15_Male,Connector:Conn_01x15_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical
+,,J9,Conn_01x02_Male,Connector:Conn_01x02_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+,,J11,Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,,https://www.digikey.com/en/products/detail/cui-devices/TB006-508-02BE/10064115,TerminalBlock:TerminalBlock_bornier-2_P5.08mm
+,,J12,DB9_Male,Connector:DB9_Male,,https://www.digikey.com/en/products/detail/conec/163A13829X/3838158,Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
+,,JP1,SolderJumper_2_Open,Jumper:SolderJumper_2_Open,,https://www.digikey.com/en/products/detail/sullins-connector-solutions/SPN02SXCN-RC/2618264,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+,,Q1,NPN 15V 0.7A,Device:Q_NPN_BEC,,https://www.digikey.com/en/products/detail/onsemi/2SD1048-6-TB-E/2797044,Package_TO_SOT_SMD:SC-59_Handsoldering
+,,Q2,NPN 15V 0.7A,Device:Q_NPN_BEC,,https://www.digikey.com/en/products/detail/onsemi/2SD1048-6-TB-E/2797044,Package_TO_SOT_SMD:SC-59_Handsoldering
+,,Q3,NPN 15V 0.7A,Device:Q_NPN_BEC,,https://www.digikey.com/en/products/detail/onsemi/2SD1048-6-TB-E/2797044,Package_TO_SOT_SMD:SC-59_Handsoldering
+,,R1,6.3kR,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-076K34L/727320,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,R2,1kR,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,R3,150R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07150RL/726958,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,R4,150R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07150RL/726958,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,R5,150R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07150RL/726958,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,R6,150R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07150RL/726958,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,R7,634R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07634RL/727341,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,R8,60R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07560RL/727304,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,R9,60R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07560RL/727304,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+,,SW1,SW_SPDT,Switch:SW_SPDT,,https://www.digikey.com/en/products/detail/eao/09-03290-01/8733106,CANBusShield:09.03290.01 switch
+,,U1,MCP2515-xSO,Interface_CAN_LIN:MCP2515-xSO,,https://www.digikey.com/en/products/detail/microchip-technology/MCP2515-I-SO/593001,Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm
+,,U2,MCP2551-I-SN,Interface_CAN_LIN:MCP2551-I-SN,,https://www.digikey.com/en/products/detail/microchip-technology/MCP2551-I-SN/509452,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+,,U3,LD1117S50TR_SOT223,Regulator_Linear:LD1117S50TR_SOT223,,https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117S50CTR/585767,Package_TO_SOT_SMD:SOT-223-3_TabPin2
+,,Y1,8MHz Crystal,Device:Crystal,,https://ecsxtal.com/store/pdf/csm-7x.pdf,Crystal:Crystal_SMD_HC49-SD
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,,Datasheet,Footprint
+1,2,"C1, C5",0.1uF,Device:C,,https://www.digikey.com/en/products/detail/murata-electronics/GCM188R71H104KA57D/1641653,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+2,2,"C2, C3",22pF,Device:C,,https://www.digikey.com/en/products/detail/yageo/CC0603JRNPO9BN220/302796,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+3,1,C4,100pF,Device:C,,https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H101JA01D/586921,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+4,3,"C6, C7, CIN1",100nF,Device:C,,https://www.digikey.com/en/products/detail/vishay-sprague/TMCP1D104MTRF/10107432,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+5,1,C8,4.7nF,Device:C,,https://www.digikey.com/en/products/detail/kemet/C0603C472K4RECAUTO/8640473,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+6,1,COUT1,10uF,Device:C,,https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106MA73D/3900497,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+7,1,D1,3.3V 500mW,Device:D,,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAS16J-115/1692651,Diode_SMD:D_SOD-323_HandSoldering
+8,5,"D2, D3, D4, D5, D6",LED,Device:LED,,https://www.mouser.com/ProductDetail/Bivar/SM0603SRC?qs=EYSZfI0QbkaJbRyUf4vVYw%3D%3D,LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+9,2,"D7, D8",BAT165AX,Device:D,,https://www.digikey.com/en/products/detail/nexperia-usa-inc/BAT165AX/6576010?s=N4IgTCBcDaIEYEMAuBGAbAVgIIA0QF0BfIA,Diode_SMD:D_SOD-323_HandSoldering
+10,1,F1,1.5A Fuse,Device:Fuse,,https://www.digikey.com/en/products/detail/bel-fuse-inc/0ABB-1500-TM/15204251,Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+11,1,FB1,120R,Device:FerriteBead,,https://www.digikey.com/en/products/detail/laird-signal-integrity-products/LI0603G121R-10/806607,Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+12,2,"J1, J4",Conn_01x04_Male,Connector:Conn_01x04_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical
+13,3,"J2, J3, J6",Conn_01x06_Male,Connector:Conn_01x06_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical
+14,1,J5,Conn_01x01_Male,Connector:Conn_01x01_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical
+15,2,"J7, J8",Conn_01x15_Male,Connector:Conn_01x15_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x15_P2.00mm_Vertical
+16,1,J9,Conn_01x02_Male,Connector:Conn_01x02_Male,,~,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+17,1,J11,Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,,https://www.digikey.com/en/products/detail/cui-devices/TB006-508-02BE/10064115,TerminalBlock:TerminalBlock_bornier-2_P5.08mm
+18,1,J12,DB9_Male,Connector:DB9_Male,,https://www.digikey.com/en/products/detail/conec/163A13829X/3838158,Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm
+19,1,JP1,SolderJumper_2_Open,Jumper:SolderJumper_2_Open,,https://www.digikey.com/en/products/detail/sullins-connector-solutions/SPN02SXCN-RC/2618264,Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+20,3,"Q1, Q2, Q3",NPN 15V 0.7A,Device:Q_NPN_BEC,,https://www.digikey.com/en/products/detail/onsemi/2SD1048-6-TB-E/2797044,Package_TO_SOT_SMD:SC-59_Handsoldering
+21,1,R1,6.3kR,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-076K34L/727320,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+22,1,R2,1kR,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+23,4,"R3, R4, R5, R6",150R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07150RL/726958,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+24,1,R7,634R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07634RL/727341,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+25,2,"R8, R9",60R,Device:R,,https://www.digikey.com/en/products/detail/yageo/RC0603FR-07560RL/727304,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+26,1,SW1,SW_SPDT,Switch:SW_SPDT,,https://www.digikey.com/en/products/detail/eao/09-03290-01/8733106,CANBusShield:09.03290.01 switch
+27,1,U1,MCP2515-xSO,Interface_CAN_LIN:MCP2515-xSO,,https://www.digikey.com/en/products/detail/microchip-technology/MCP2515-I-SO/593001,Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm
+28,1,U2,MCP2551-I-SN,Interface_CAN_LIN:MCP2551-I-SN,,https://www.digikey.com/en/products/detail/microchip-technology/MCP2551-I-SN/509452,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+29,1,U3,LD1117S50TR_SOT223,Regulator_Linear:LD1117S50TR_SOT223,,https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117S50CTR/585767,Package_TO_SOT_SMD:SOT-223-3_TabPin2
+30,1,Y1,8MHz Crystal,Device:Crystal,,https://ecsxtal.com/store/pdf/csm-7x.pdf,Crystal:Crystal_SMD_HC49-SD
