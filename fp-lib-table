@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "SoCET_PCB_Shield_Dev_Platform")(type "KiCad")(uri "C:/Users/Franco/OneDrive/Documentos/Purdue/Spring 2023/VIP/gps_shield/SoCET_PCB_Shield_Dev_Platform.pretty")(options "")(descr ""))
+  (lib (name "GPS_Footprints")(type "KiCad")(uri "C:/Users/Franco/OneDrive/Documentos/Purdue/Spring 2023/VIP/gps_shield/GPS_Footprints.pretty")(options "")(descr ""))
+)
