@@ -282,7 +282,7 @@
     (property "Sheetname" "CAN Controller & Transceiver")
     (path "/8821867c-d845-4001-afb5-268b77385ae8/faab8fe6-27eb-4b8b-a55b-0a6dffb8c46a")
     (attr through_hole)
-    (fp_text reference "JP1" (at 0.6 -2.3) (layer "F.SilkS")
+    (fp_text reference "JP1" (at 0.6 -2.3) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e69b6320-6f1f-462e-9d70-5c2941e9bc99)
     )
@@ -290,7 +290,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7a9eb908-e9da-4ef0-a1c0-d3619af56d49)
     )
-    (fp_text user "${REFERENCE}" (at 0 1 90) (layer "F.Fab")
+    (fp_text user "CAN Term" (at -1.7 -2.4 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp c77af504-7562-44b6-8379-08c7926a117a)
+    )
+    (fp_text user "${REFERENCE}" (at 0 1 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 29e58f3a-fa9b-40d0-9b45-e424604aa3d6)
     )
