@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Sensors")(type "KiCad")(uri "${KIPRJMOD}/Sensors.kicad_sym")(options "")(descr ""))
+  (lib (name "HC-SR04")(type "KiCad")(uri "${KIPRJMOD}/HC-SR04.kicad_sym")(options "")(descr ""))
+)
