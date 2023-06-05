@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name "Sensor")(type "KiCad")(uri "${KIPRJMOD}/Sensor.pretty")(options "")(descr ""))
-  (lib (name "Sensor_Optical")(type "KiCad")(uri "${KIPRJMOD}/Sensor_Optical.pretty")(options "")(descr ""))
-)
