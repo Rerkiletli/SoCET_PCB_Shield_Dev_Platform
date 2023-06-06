@@ -426,7 +426,7 @@
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/83cb6f61-bcb9-4b91-8ea6-aaa43b76c715"
       (reference "R1") (unit 1) (value "5.1k") (footprint "")
     )
-    (path "/683869c3-2652-4a1a-8cb4-4298fc933778/8d002585-c532-4e0f-ad39-1c68d645c763"
+    (path "/683869c3-2652-4a1a-8cb4-4298fc933778/cbea9723-dad0-4a6c-9993-a5e9a6f3551c"
       (reference "R2") (unit 1) (value "11k") (footprint "")
     )
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/8f4f777c-b374-4d5b-8c3d-8706cd39a2ff"
