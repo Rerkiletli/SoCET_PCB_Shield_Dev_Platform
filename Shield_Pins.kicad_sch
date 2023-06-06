@@ -267,9 +267,6 @@
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/c6211000-709d-4049-b599-2227a24c7bb0"
       (reference "#PWR0109") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/683869c3-2652-4a1a-8cb4-4298fc933778/a90ef0dc-829a-45d0-a3ca-1f675b00f3ef"
-      (reference "#PWR0110") (unit 1) (value "+5V") (footprint "")
-    )
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/4669e73e-b1c6-4295-bc4c-92f45e5fd735"
       (reference "#PWR0111") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -351,20 +348,17 @@
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/2931709a-9157-440b-913a-682791df90c9"
       (reference "D1") (unit 1) (value "BAT165AX") (footprint "Diode_SMD:D_0402_1005Metric")
     )
-    (path "/683869c3-2652-4a1a-8cb4-4298fc933778/0ac196af-d686-4209-9a48-84f11ff038ed"
+    (path "/683869c3-2652-4a1a-8cb4-4298fc933778/12a5d239-04a9-41f9-b157-207b35c17390"
       (reference "D2") (unit 1) (value "BAT165AX") (footprint "Diode_SMD:D_0402_1005Metric")
     )
-    (path "/683869c3-2652-4a1a-8cb4-4298fc933778/12a5d239-04a9-41f9-b157-207b35c17390"
-      (reference "D3") (unit 1) (value "BAT165AX") (footprint "Diode_SMD:D_0402_1005Metric")
-    )
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/66b808cf-4d11-468d-9e4d-5d267196b009"
-      (reference "D4") (unit 1) (value "LED") (footprint "")
+      (reference "D3") (unit 1) (value "LED") (footprint "")
     )
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/4eaa65ff-cbc6-471b-899f-cd194745875d"
-      (reference "D5") (unit 1) (value "LED") (footprint "")
+      (reference "D4") (unit 1) (value "LED") (footprint "")
     )
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/8a99a649-2645-4be6-857d-15b2c0b2faed"
-      (reference "D6") (unit 1) (value "LED") (footprint "")
+      (reference "D5") (unit 1) (value "LED") (footprint "")
     )
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/4845f7a6-c463-4580-b93c-913e05be62b5"
       (reference "FB1") (unit 1) (value "120R") (footprint "Inductor_SMD:L_0603_1608Metric")
