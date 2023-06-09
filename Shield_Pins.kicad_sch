@@ -405,6 +405,9 @@
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/c2b59683-731d-4a67-bcc8-6d14d08717c6"
       (reference "J13") (unit 1) (value "Conn_01x01_Male") (footprint "")
     )
+    (path "/683869c3-2652-4a1a-8cb4-4298fc933778/f6ce4da0-5cf1-4afb-9717-3a01fd289241"
+      (reference "J14") (unit 1) (value "Conn_01x02_Male") (footprint "")
+    )
     (path "/683869c3-2652-4a1a-8cb4-4298fc933778/25cb18bf-d44f-452a-b786-c6831b0227de"
       (reference "L1") (unit 1) (value "5.1 nH") (footprint "")
     )
