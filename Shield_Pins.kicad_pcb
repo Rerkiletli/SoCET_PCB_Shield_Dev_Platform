@@ -2950,7 +2950,7 @@
   )
 
   (gr_rect (start 107.62 82.615) (end 183.595 120.93) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 469e536b-ef79-4ef8-9260-aa67909cb6bf))
-  (gr_text "ETHERNET\nSHIELD" (at 168.148 118.11) (layer "F.SilkS") (tstamp 62ee4e87-049c-48f5-80ed-382a9b2f1620)
+  (gr_text "ETHERNET\nSHIELD" (at 167.894 117.856) (layer "F.SilkS") (tstamp 62ee4e87-049c-48f5-80ed-382a9b2f1620)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (dimension (type aligned) (layer "F.Cu") (tstamp 21f2ae1b-9281-41ac-a3e8-42ff6310bf8a)
