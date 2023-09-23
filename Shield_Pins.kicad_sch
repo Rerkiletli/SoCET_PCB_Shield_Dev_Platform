@@ -459,7 +459,7 @@
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/c31305ee-063b-4b70-952f-2d2ae72059a9"
       (reference "U1") (unit 1) (value "AP2127K-3.3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
-    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/e583326c-745c-439c-8896-f0b4e34e06e6"
+    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/842d1666-3ba3-4db6-adc9-f2eb7caf81db"
       (reference "U2") (unit 1) (value "W5500") (footprint "footprints:48LQFP_W5500_WIZ")
     )
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/feb2f948-5ac6-42a9-bdba-f48b4b0f1ccf"
