@@ -25,7 +25,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6401c8d4-4719-4b33-aa01-83f925967e6d)
   )
-  (bus (pts (xy 139.7 41.91) (xy 144.78 41.91))
+  (bus (pts (xy 132.08 41.91) (xy 144.78 41.91))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a703e6cb-547d-48a4-91a7-2dbffcae1490)
   )
@@ -33,7 +33,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c7283c94-19c6-49c5-b656-39eb31fa73bd)
   )
-  (bus (pts (xy 139.7 26.67) (xy 144.78 26.67))
+  (bus (pts (xy 132.08 26.67) (xy 144.78 26.67))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid f50c520e-5811-4e74-8801-8ca50b78a979)
   )
@@ -120,21 +120,21 @@
     )
   )
 
-  (sheet (at 96.52 19.05) (size 43.18 25.4) (fields_autoplaced)
+  (sheet (at 88.9 19.05) (size 43.18 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6)
-    (property "Sheet name" "Ethernet_Shield" (id 0) (at 96.52 18.3384 0)
+    (property "Sheet name" "Ethernet_Shield" (id 0) (at 88.9 18.3384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "Ethernet_Shield.kicad_sch" (id 1) (at 96.52 45.0346 0)
+    (property "Sheet file" "Ethernet_Shield.kicad_sch" (id 1) (at 88.9 45.0346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "IO[7..37]" input (at 139.7 26.67 0)
+    (pin "IO[7..37]" input (at 132.08 26.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 9625e3f6-6751-4759-a7d8-92ac3741176d)
     )
-    (pin "IO{SCK, CSB, SDI, SDO}" input (at 139.7 41.91 0)
+    (pin "IO{SCK, CSB, SDI, SDO}" input (at 132.08 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid a7126333-c6a7-41d0-90c6-18940587b411)
     )
@@ -306,6 +306,12 @@
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/360eee2a-c1ac-466c-b72b-54483969e707"
       (reference "#PWR049") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/da73123f-f418-4557-97fe-ff70d6d202ca"
+      (reference "#PWR050") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/51a0ef35-80b6-4984-8061-3d6b629475ac"
+      (reference "#PWR051") (unit 1) (value "+3.3VA") (footprint "")
+    )
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/9fa7fb46-1459-4950-a8a6-52384ac4fc4c"
       (reference "C1") (unit 1) (value "22nF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -369,14 +375,8 @@
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/b224b316-b544-4456-b74f-0931a6295cc8"
       (reference "D2") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
     )
-    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/e613ab17-6dd9-4d30-a5ae-8315ae4d609b"
-      (reference "D3") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
-    )
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/32211dc7-476f-463b-822c-75daef0b0d02"
       (reference "D4") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
-    )
-    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/f46e18f0-d33a-4304-b640-bfe7bb2e1238"
-      (reference "D5") (unit 1) (value "LED") (footprint "LED_SMD:LED_1206_3216Metric")
     )
     (path "/5b833efc-2670-4993-9d76-b575befe1a02/32c7eabf-dd3f-49f7-a5b2-15e1e57e87ba"
       (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical")
@@ -447,14 +447,23 @@
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/fa28bd66-f01e-4868-ab6e-58e77e8ef593"
       (reference "R12") (unit 1) (value "220") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
-    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/01147524-63aa-4cab-bb10-dca76139ca4a"
-      (reference "R13") (unit 1) (value "220") (footprint "Resistor_SMD:R_1206_3216Metric")
+    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/d43e2fed-a62b-4c38-b0c4-4ef8f29b9fb0"
+      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/8ac542c4-e283-4858-85e3-50b11e35f7bf"
       (reference "R14") (unit 1) (value "220") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
-    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/fe4d5189-27d4-4bcd-a7c0-7bc476d4d370"
-      (reference "R15") (unit 1) (value "220") (footprint "Resistor_SMD:R_1206_3216Metric")
+    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/77a34d14-999c-45ae-896f-58e1ba020f9f"
+      (reference "R15") (unit 1) (value "10k") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/a0ad8515-ee85-4ad4-8be2-3218829fd82c"
+      (reference "R16") (unit 1) (value "10k") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/5a78f3d7-67af-41af-ad76-3a522156fa0f"
+      (reference "R17") (unit 1) (value "10k") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/4a2f402e-159b-4675-9ae0-41ab8933a76d"
+      (reference "R18") (unit 1) (value "10k") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/c31305ee-063b-4b70-952f-2d2ae72059a9"
       (reference "U1") (unit 1) (value "AP2127K-3.3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
