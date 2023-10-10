@@ -52,6 +52,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
+    (grid_origin 104.648 79.502)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -2168,7 +2169,7 @@
     (property "Sheetname" "Ethernet_Shield")
     (path "/c6077f5f-be8e-4c28-a7f6-c2f57b0d81c6/e325de00-e7a6-45f5-b4f1-19e23a494cee")
     (attr smd)
-    (fp_text reference "R3" (at 5.6495 -1.016) (layer "F.SilkS")
+    (fp_text reference "R3" (at 6.1575 -1.016) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c1b8841-6250-4cdb-88dd-eadae5c0775a)
     )
