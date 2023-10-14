@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "SocetPCBShield")(type "KiCad")(uri "${KIPRJMOD}/SocetPCBShield.kicad_sym")(options "")(descr ""))
-)
