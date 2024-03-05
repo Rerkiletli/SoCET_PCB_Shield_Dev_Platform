@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Wifi_Library")(type "KiCad")(uri "${KIPRJMOD}/Wifi_Library.kicad_sym")(options "")(descr ""))
+)
